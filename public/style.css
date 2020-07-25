@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-image: url(image/todo3.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.btn{
+    background-color: lime;
+    margin-left: 5px;
+    color: rgb(17, 16, 16);
+    padding: 3px 15px 3px 15px;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    border-radius: 25px;
+    
+}
+.delbtn{
+    background-color: rgb(255, 0, 0);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+   padding: 3px 10px 3px 10px;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.container{
+    display: table;
+    max-width: 450px;
+    width: 100%;
+    margin: 10% auto 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.15rem;
+}
+.header{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* background-color: #f51202; */
+    color: rgb(17, 9, 6);
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.15rem
+}
+#todo-item{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 25px;
+    width: 150px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.addbtn{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #03f46f, #f441a5, #ffeb3b, #03f40f);
+    
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 800;
+	text-align: center;
+	/* margin: 1rem 0 3rem;  */
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	color: lime;
+	text-transform: uppercase;
+	font-weight: 800;
+}
